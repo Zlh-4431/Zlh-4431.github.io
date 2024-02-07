@@ -1,7 +1,11 @@
-let a = document.getElementById("a");
+const p1 = document.getElementById("p1");
+const h1 = document.getElementById("h1");
+const butt = document.getElementById("butt");
 
 function random() {
-    a.innerHTML = Math.random();
+    p1.innerHTML = Math.random();
 }
 
-document.getElementById("h1").addEventListener("click",random(),);
+butt.addEventListener("click", () => {
+    random()
+});
