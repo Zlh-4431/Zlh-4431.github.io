@@ -1,7 +1,7 @@
 let a = document.getElementById("a");
 
-function random(a) {
+function random() {
     a.innerHTML = Math.random();
 }
 
-document.getElementById("h1").addEventListener("click",random(a));
+document.getElementById("h1").addEventListener("click",random());
