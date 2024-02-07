@@ -4,4 +4,4 @@ function random() {
     a.innerHTML = Math.random();
 }
 
-document.getElementById("h1").addEventListener("click",random());
+document.getElementById("h1").addEventListener("click",random(),);
